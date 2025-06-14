@@ -38,7 +38,7 @@ switch (opcion) {
     if (deposito > 1000 && deposito <= 2000000) {
       console.log(deposito);
       //saldo = saldo + deposito;
-      saldo += deposito
+      saldo += deposito;
       document.writeln(
         `Depositaste $${deposito}, tu saldo actual es: $${saldo}`
       );
@@ -51,7 +51,7 @@ switch (opcion) {
     const extraer = parseInt(prompt("Ingresa el monto a extraer!."));
     if (extraer <= saldo) {
       //saldo = saldo - extraer;
-      saldo -= deposito
+      saldo -= deposito;
       document.writeln(
         `El monto a extraer es $${extraer}, tu saldo actual es $${saldo}`
       );
