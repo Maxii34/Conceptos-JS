@@ -38,4 +38,3 @@ todas las lineas de codigo que quiero
 for(let indice = 10; indice >= 0 ; indice --){
     document.writeln(`<p class="btn btn-info">Cuenta segresiva N ${indice}</p>`);
 }
-
