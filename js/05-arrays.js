@@ -1,3 +1,8 @@
+const mostrarCancion = (titulo) => {
+
+}
+
+
 const peliculas = [];
 
 //arrays de canciones
